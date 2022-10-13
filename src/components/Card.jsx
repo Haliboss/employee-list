@@ -29,6 +29,7 @@ const Kart = styled.div`
         width: 50vh;
         max-width: 50vh;
         max-height: 10vh;
+    }
     `
 
 const Img = styled.img`
