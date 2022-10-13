@@ -1,23 +1,22 @@
-import { data } from '../data';
 import styled from 'styled-components';
 
 const Pencere = styled.div`
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #fff;
+   /*  background-color: #fff; */
 `
 
 const Kart = styled.div`
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: row;
     justify-content: left;
     align-items: center;
     margin: .5rem;    
-    width: 500px;
+    width: 50vh;
     font-size:1rem;
     `
 
@@ -25,41 +24,41 @@ const Img = styled.img`
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    box-shadow: 5px 5px 5px #07000033;
     margin-right: 2rem;
     `
 
 const H1 = styled.h1`
-    font-size: 1.4rem;
+    font-size: 1rem;
     letter-spacing: 2px;
 `
 
-const Card = (page, setPage) => {
+const Kartinfo = styled.div`
+    line-height: .6rem;
+    text-shadow: 3px 3px 3px #07000033;
+`
 
-    let count = 0;
-    let pageData = data.slice((page - 1) * 5, page * 5);
+const Notlar = styled.p`
+    font-size: .9rem;
+    letter-spacing: 1px;
+    `
 
+const Card = ({ name, image, email, age }) => {
     return (
-
-        <Pencere>
-            {pageData.map((item) => {
-                count++;
-                console.log(count);
-                return (
-                    <Kart key={count}> 
-                        <Img src={item.image} alt={item.name} />
-                        <div>
-                            <H1>{item.name}</H1>
-                            <p>{item.email}</p>
-                            <p>{item.phone}</p>
-                        </div>
-                    </Kart>
-                )
-            })}
-
+        <Pencere >
+            <Kart>
+                <div>
+                    <Img src={image} alt="image" />
+                </div>
+                <Kartinfo>
+                    <H1 >{name}</H1>
+                    <Notlar>{email}</Notlar>
+                    <Notlar>{age} years</Notlar>
+                </Kartinfo>
+            </Kart>
         </Pencere>
-    )
-}
-
+    );
+};
 export default Card;
 
 /* return (

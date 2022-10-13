@@ -17,7 +17,7 @@ letter-spacing: 1px;
 const Header = (props) => {
 
     return (
-        <div className="container">
+        <div>
             <H1>Employee List</H1>
             <H4>(Employees {props.count} to {props.counter + 5})</H4>
         </div>
