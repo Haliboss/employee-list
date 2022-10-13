@@ -8,6 +8,7 @@ const Ana = styled.div`
  padding:1rem;
 background: linear-gradient(106deg, rgba(2,0,36,1) 0%, rgba(9,121,22,0.3708299839228296) 21%, rgba(0,212,255,1) 100%);
  height: 75vh;
+ border-radius: 1rem;
  text-shadow: 1px 1px 3px #000;
  box-shadow: 5px 5px 10px #000;
 `

@@ -43,10 +43,10 @@ export const data = [
     },
     {
         id: '059737189',
-        name: 'William Claire',
-        age: 62,
-        image: 'https://randomuser.me/api/portraits/men/57.jpg',
-        email: 'william.claire@example.com',
+        name: 'Mihail Tal',
+        age: 37,
+        image: 'https://en.chessbase.com/Portals/all/thumbs/056/56044.jpeg',
+        email: 'chess_boss@icolud.com',
     },
     {
         id: '2920214291853 13',
