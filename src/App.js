@@ -25,7 +25,7 @@ const Paragraf = styled.p`
 const Tus = styled.div`
   display: flex;
   justify-content: space-evenly;
-  padding: 1rem;
+  margin-top: -.5rem;
   border-radius: 5px;
   `
 
