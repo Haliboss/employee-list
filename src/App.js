@@ -11,6 +11,7 @@ background: linear-gradient(106deg, rgba(2,0,36,1) 0%, rgba(9,121,22,0.370829983
  border-radius: 1rem;
  text-shadow: 1px 1px 3px #000;
  box-shadow: 5px 5px 10px #000;
+ max-width: 1000px;
 `
 
 const Ortala = styled.div`
@@ -25,7 +26,6 @@ const Paragraf = styled.p`
 const Tus = styled.div`
   display: flex;
   justify-content: space-evenly;
-  margin-top: -.5rem;
   border-radius: 5px;
   `
 

@@ -6,7 +6,11 @@ const Pencere = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   /*  background-color: #fff; */
+   /*  background-color: #fff; */  
+    @media (max-width: 768px) {
+    max-width: 400px;
+    max-height: 50vh;
+    }
 `
 
 const Kart = styled.div`
@@ -18,6 +22,13 @@ const Kart = styled.div`
     margin: .5rem;    
     width: 50vh;
     font-size:1rem;
+    max-height: 10vh;
+    max-width: 50vh;
+
+    @media (max-width: 768px) {
+        width: 50vh;
+        max-width: 50vh;
+        max-height: 10vh;
     `
 
 const Img = styled.img`
