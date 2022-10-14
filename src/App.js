@@ -12,21 +12,30 @@ background: linear-gradient(106deg, rgba(2,0,36,1) 0%, rgba(9,121,22,0.370829983
  text-shadow: 1px 1px 3px #000;
  box-shadow: 5px 5px 10px #000;
  max-width: 1000px;
+ @media (max-width: 1300px) {
+  height: 75vh;
+ }
+ @media (max-width: 768px) {
+  height: 90vh;
+ }
 `
 
 const Ortala = styled.div`
 line-height: .7rem;
 text-align:center;
+margin: .5rem;
 `
 
 const Paragraf = styled.p`
   font-size: 1rem;
+  margin-top: 1rem;
   `
 
 const Tus = styled.div`
   display: flex;
   justify-content: space-evenly;
   border-radius: 5px;
+  margin-top: 5%;
   `
 
 const Bas = styled.button`
@@ -38,6 +47,10 @@ const Bas = styled.button`
   &:hover {
     background-color: #e6e6e6;
     border: 1px solid #e6e6e6;
+  }
+
+  @media (max-width: 768px) {
+    margin-top: 1rem;
   }
  /*  :hover{
     background-color: #e6e6e6;

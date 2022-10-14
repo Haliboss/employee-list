@@ -45,7 +45,7 @@ export const data = [
         id: '059737189',
         name: 'Mihail Tal',
         age: 37,
-        image: 'https://en.chessbase.com/Portals/all/thumbs/056/56044.jpeg',
+        image: 'https://randomuser.me/api/portraits/men/36.jpg',
         email: 'chess_boss@icolud.com',
     },
     {
